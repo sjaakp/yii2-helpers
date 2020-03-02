@@ -1,0 +1,22 @@
+{
+    "name": "sjaakp/yii2-helpers",
+    "description": "Various helpers for Yii2 PHP framework",
+    "keywords": ["yii", "yii2", "extension", "helpers", "roman"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sjaak Priester",
+            "email": "sjaak@sjaakpriester.nl",
+            "homepage": "https://sjaakpriester.nl"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sjaakp\\helpers\\": ""
+        }
+    }
+}
